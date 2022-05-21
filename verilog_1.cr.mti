@@ -1,0 +1,43 @@
+C:/repos/task1_verilog/xor2_1bit.v {1 {vlog -work work -nocovercells C:/repos/task1_verilog/xor2_1bit.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module xor2_1bit
+
+Top level modules:
+	xor2_1bit
+
+} {} {}} C:/repos/task1_verilog/mux2on1.v {1 {vlog -work work -nocovercells C:/repos/task1_verilog/mux2on1.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module mux2on1
+
+Top level modules:
+	mux2on1
+
+} {} {}} C:/repos/task1_verilog/nor2_1bit.v {1 {vlog -work work -nocovercells C:/repos/task1_verilog/nor2_1bit.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module nor2_1bit
+
+Top level modules:
+	nor2_1bit
+
+} {} {}} C:/repos/task1_verilog/and2_1bit.v {1 {vlog -work work -nocovercells C:/repos/task1_verilog/and2_1bit.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module and2_1bit
+
+Top level modules:
+	and2_1bit
+
+} {} {}} C:/repos/task1_verilog/Demo.v {1 {vlog -work work -nocovercells C:/repos/task1_verilog/Demo.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module DEMO_TB
+
+Top level modules:
+	DEMO_TB
+
+} {} {}} C:/repos/verilog_1/mux4on1.v {1 {vlog -work work -nocovercells C:/repos/verilog_1/mux4on1.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module mux4on1
+
+Top level modules:
+	mux4on1
+
+} {} {}}
