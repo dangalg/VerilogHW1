@@ -1,0 +1,6 @@
+module alu_1bit(s, cout, a, b, cin, s_op);
+  input a, b, cin, s_op;
+  output cout, s;
+  parameter Tpd = 1;
+    fas fas1(.s(s), .cout(cout), .a(a), .b(b), .cin(cin), .s_op(s_op))
+endmodule

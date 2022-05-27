@@ -3,182 +3,258 @@ K3
 13
 cModel Technology
 dC:\altera\91sp2\modelsim_ase\examples
+valu_1bit
+Z0 Mx1 6 sv_std 3 std
+Z1 DXx6 sv_std 3 std 0 22 WnQ=;W1X^o9K1PIQTgInR3
+IjeD^N0I0VVDQT>ieMl?JN2
+Vf6?LTBjF268dD;3[;ASHm2
+S1
+Z2 dC:\repos\verilog_1
+w1653406190
+Z3 8C:/repos/verilog_1/alu.sv
+Z4 FC:/repos/verilog_1/alu.sv
+L0 8
+Z5 OV;L;6.5b;42
+r1
+31
+Z6 !s102 -nocovercells
+Z7 o-work work -sv -nocovercells -O0
+!s100 ZDgYe;S8f73[Nz@iQOBCa3
+!s85 0
+!s101 -O0
+valu_4bit
+Z8 Mx1 6 sv_std 3 std
+R1
+I<KlaciAXGgYO:0PG04QPm0
+VB_FTjWI<ka:<z0:<j<dn<2
+S1
+R2
+w0
+R3
+R4
+L0 13
+R5
+r1
+31
+R6
+R7
+!s100 6jG^cQfWhkDRMd^XWQUJI2
+!s85 0
+!s101 -O0
 vand2_1bit
 Ij_RHSTja^[I82>TZW3>5?1
 Vm0<bTB7LbA0507hGdUoP`3
-Z0 dC:\repos\verilog_1
+R2
 w1653135142
 8C:/repos/task1_verilog/and2_1bit.v
 FC:/repos/task1_verilog/and2_1bit.v
 L0 1
-Z1 OV;L;6.5b;42
+R5
 r1
 31
-Z2 !s102 -nocovercells
-Z3 o-work work -nocovercells -O0
+R6
+Z9 o-work work -nocovercells -O0
 !s100 S4Olzi^d6CgMR4[R64ZTd2
 !s85 0
 !s101 -O0
 vDEMO_TB
 I9KaAdJI[2dd^j0zoX?S=80
 VET]gk0i6RNJ1^S[d=>@R=2
-Z4 dC:\repos\verilog_1
+R2
 w1653137287
 8C:/repos/task1_verilog/Demo.v
 FC:/repos/task1_verilog/Demo.v
 L0 6
-R1
+R5
 r1
 31
-R2
-R3
+R6
+R9
 n@d@e@m@o_@t@b
 !s100 :9V[LDU[2KMFcVERjS2Qb1
 !s85 0
 !s101 -O0
 vDEMO_TB_FAS
-!s100 YNT[e_R5g=haW1KMB;izR2
 I=^LaWS=AO^<n5Q40DQo@72
 VbfYUFTRNVF0]IlUD5EK^42
-R4
+R2
 w1653149014
 8C:/repos/verilog_1/DEMO_FAS.v
 FC:/repos/verilog_1/DEMO_FAS.v
 L0 7
-R1
+R5
 r1
-!s85 0
 31
-!s101 -O0
-R2
-R3
+R6
+R9
 n@d@e@m@o_@t@b_@f@a@s
+!s100 YNT[e_R5g=haW1KMB;izR2
+!s85 0
+!s101 -O0
 vDEMO_TB_RIP
-IB?DRb3gkagc;=EN<2XBgO1
+IlH>SPLim9GkZRVOUGo>ma3
 VHfE?b[4iG2KihEEZkcWQ?0
-R4
-w1653149075
+R2
+w1653149357
 8C:/repos/verilog_1/DEMO_RIP.v
 FC:/repos/verilog_1/DEMO_RIP.v
 L0 6
-R1
+R5
 r1
 31
-R2
-R3
+R6
+R9
 n@d@e@m@o_@t@b_@r@i@p
-!s100 02R_d6glcfS?2@@YPI0lm3
+!s100 3W2JVe;YILH^93jDGCPBY3
 !s85 0
 !s101 -O0
 vfas
 IWijl?ecWcHYGSlA<5XaT^0
 VMkOd7[OkSNEbRlWdJ@ZYG0
-R4
-w1653148939
-8C:/repos/verilog_1/fas.v
-FC:/repos/verilog_1/fas.v
+R2
+Z10 w1653404770
+Z11 8C:/repos/verilog_1/fas.v
+Z12 FC:/repos/verilog_1/fas.v
 L0 1
-R1
+R5
 r1
 31
-R2
-R3
+R6
+R9
 !s100 ?5@T4:2_c4g@GzkL`]_5<3
 !s85 0
 !s101 -O0
 vfasrip
-IN8T_jh_W@G:J==Z@m8Hj73
+IX[fOm5Hh_=mAaThTc3>BA3
 VaoUF11:9aFCQKHm3NM?CB3
-R4
-w1653144640
-8C:/repos/verilog_1/fasrip.v
-FC:/repos/verilog_1/fasrip.v
-L0 1
-R1
+R2
+R10
+R11
+R12
+L0 14
+R5
 r1
 31
-R2
-R3
-!s100 Kl3bhTEL:_3P`2Bi^<E]>0
+R6
+R9
+!s100 UiS__4_nDJo@IMHd;T2972
 !s85 0
 !s101 -O0
 vmux2on1
 I@8TEO;HI`FkdS<=[9oz4:0
 VfUl3CD3HUBPHQNIGkh9f>3
-R4
+R2
 w1653134438
 8C:/repos/task1_verilog/mux2on1.v
 FC:/repos/task1_verilog/mux2on1.v
 L0 1
-R1
+R5
 r1
 31
-R2
-R3
+R6
+R9
 !s100 :h_YRf1nXlSknZUCm6f721
 !s85 0
 !s101 -O0
 vmux2to1_4
 IhKihoKNgiDQB7YAe57[hQ0
 V6aMS`hD7G^jTo<S[X?:zP3
-R4
+R2
 w1653143866
 8C:/repos/verilog_1/test.v
 FC:/repos/verilog_1/test.v
 L0 1
-R1
+R5
 r1
 31
-R2
-R3
+R6
+R9
 !s100 ]dJaoU4@9@AX7A@K>G1=b3
 !s85 0
 !s101 -O0
 vmux4on1
 IO2fO9UNMzjQPU8HoPCJFo1
 VzTUKLH?>43?gcQRj7VibW3
-R4
+R2
 w1653136024
 8C:/repos/verilog_1/mux4on1.v
 FC:/repos/verilog_1/mux4on1.v
 L0 1
-R1
+R5
 r1
 31
-R2
-R3
+R6
+R9
 !s100 ]b1iUGY:gKQlK<_XRLg;D2
+!s85 0
+!s101 -O0
+vmux_2bit
+R8
+R1
+!s100 Q4WiTendh9EQ:a0_U8fWm1
+IH1Weo79:eQ<?Od:H9d<Un2
+V1kj0]P0HX=76I5o;g9Afg1
+S1
+R2
+w1653638193
+Z13 8C:/repos/verilog_1/mux.sv
+Z14 FC:/repos/verilog_1/mux.sv
+L0 1
+R5
+r1
+!s85 0
+31
+!s101 -O0
+R6
+R7
+vmux_4bit
+R8
+R1
+I3=A>ZDY[^Fh=zAQLA31Qg2
+V4EH@HB;A>jR5:EYhi2HO>3
+S1
+R2
+w1653404686
+R13
+R14
+L0 13
+R5
+r1
+31
+R6
+R7
+!s100 fb@[z0<Y::B9Q_g^`CoZO0
 !s85 0
 !s101 -O0
 vnor2_1bit
 I[<_IfH7:ec8=J;gA;m79?2
 VDcH2RHJEJ3_T1eFJEWl``3
-R4
+R2
 w1653135146
 8C:/repos/task1_verilog/nor2_1bit.v
 FC:/repos/task1_verilog/nor2_1bit.v
 L0 1
-R1
+R5
 r1
 31
-R2
-R3
+R6
+R9
 !s100 X`K<CSGifOfm4C`<g`B8Z3
 !s85 0
 !s101 -O0
 vxor2_1bit
 IM>PTL2;k:9HOGkX0:G;nR1
 V9i>Rkc8dKEdd@hT@Sno><1
-R4
+R2
 w1653135137
 8C:/repos/task1_verilog/xor2_1bit.v
 FC:/repos/task1_verilog/xor2_1bit.v
 L0 1
-R1
+R5
 r1
 31
-R2
-R3
+R6
+R9
 !s100 V75m5[0Yl<E@HV>knLRB_2
 !s85 0
 !s101 -O0
