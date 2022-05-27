@@ -5,11 +5,11 @@ entity alu_1bit is
         Tpd             : integer := 1
     );
     port(
-        s               : out    vl_logic;
+        z               : out    vl_logic;
         cout            : out    vl_logic;
         a               : in     vl_logic;
         b               : in     vl_logic;
         cin             : in     vl_logic;
-        s_op            : in     vl_logic
+        s_op            : in     vl_logic_vector(1 downto 0)
     );
 end alu_1bit;

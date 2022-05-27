@@ -30,18 +30,14 @@ begin
     b = 4'b0001;
     cin = 1'b0;
     s_op = 1'b0;
-    #10;
-    a = 4'b0010;
-    b = 4'b0001;
-    cin = 1'b1;
-    s_op = 1'b1;
+  
 end
 
 // Gate instantiations
 // ===================
 
 // For this gate we use the default delays with: Tpdlh=1 and Tpdhl=1
-fasrip fasrip_de(.s(s), .cout(cout), .a(a), .b(b), .cin(cin), .s_op(s_op));
+fasrip fasrip_de(.z(s), .cout(cout), .a(a), .b(b), .cin(cin), .s_op(s_op));
 
 // Print out the output values on every change
 // ===========================================

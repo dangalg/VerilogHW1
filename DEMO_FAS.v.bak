@@ -31,11 +31,6 @@ begin
     b = 1'b1;
     cin = 1'b0;
     s_op = 1'b0;
-    //#10;
-    //a = 4'b0010;
-    //b = 4'b0001;
-    //cin = 1'b1;
-    //s_op = 1'b1;
 end
 
 // Gate instantiations

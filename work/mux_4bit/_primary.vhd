@@ -6,8 +6,8 @@ entity mux_4bit is
     );
     port(
         z               : out    vl_logic;
+        s0              : in     vl_logic;
         s1              : in     vl_logic;
-        s2              : in     vl_logic;
         d0              : in     vl_logic;
         d1              : in     vl_logic;
         d2              : in     vl_logic;
