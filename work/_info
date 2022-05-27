@@ -10,56 +10,56 @@ I?E>GelikKPUNS3egGB3]T2
 VjidClIKEi=4hQG]VDkGC^0
 S1
 Z2 dC:\repos\verilog_1
-w1653663569
-Z3 8C:/repos/verilog_1/alu.sv
-Z4 FC:/repos/verilog_1/alu.sv
+Z3 w1653665283
+Z4 8C:/repos/verilog_1/alu.sv
+Z5 FC:/repos/verilog_1/alu.sv
 L0 1
-Z5 OV;L;6.5b;42
+Z6 OV;L;6.5b;42
 r1
 31
-Z6 !s102 -nocovercells
-Z7 o-work work -sv -nocovercells -O0
+Z7 !s102 -nocovercells
+Z8 o-work work -sv -nocovercells -O0
 !s100 i=KYDB[DXMe^K4WJ0eePS2
 !s85 0
 !s101 -O0
 valu_4bit
-Z8 Mx1 6 sv_std 3 std
+Z9 Mx1 6 sv_std 3 std
 R1
-I=AQKGSH[S0gPIEE02F_jJ1
-VB_FTjWI<ka:<z0:<j<dn<2
+Id9gg:CEe9hYOoc81=An<80
+VI<1MH<372[VzX9CfjD^2I2
 S1
 R2
-w0
 R3
 R4
-L0 13
 R5
+L0 14
+R6
 r1
 31
-R6
 R7
-!s100 I3o5ISOoE[KZn@OW6G9TQ0
+R8
+!s100 nlQ<:A[z@n5HlJd2<@]K81
 !s85 0
 !s101 -O0
 vALU_4BIT_TB
-R8
+R9
 R1
-!s100 ?ETBa3a5VV:=F00W2^WTM2
-I``@g3b`=ZDMg`bb4X6hz70
+!s100 ^KZ044UY@RFaeL3;DHX[Q0
+IQO2YMR>QdXgSmVU=j=M>c0
 VWo30CUNGc7kd_0k2YflnX1
 S1
 R2
-w1653661503
+w1653666166
 8C:/repos/verilog_1/alu_4bit_tb.sv
 FC:/repos/verilog_1/alu_4bit_tb.sv
 L0 6
-R5
+R6
 r1
 !s85 0
 31
 !s101 -O0
-R6
 R7
+R8
 n@a@l@u_4@b@i@t_@t@b
 vand2_1bit
 Ij_RHSTja^[I82>TZW3>5?1
@@ -69,16 +69,16 @@ w1653135142
 8C:/repos/task1_verilog/and2_1bit.v
 FC:/repos/task1_verilog/and2_1bit.v
 L0 1
-R5
+R6
 r1
 31
-R6
-Z9 o-work work -nocovercells -O0
+R7
+Z10 o-work work -nocovercells -O0
 !s100 S4Olzi^d6CgMR4[R64ZTd2
 !s85 0
 !s101 -O0
 vDEMO_TB
-R8
+R9
 R1
 I;_892VbTgPAIQIJzW7Z@:1
 VET]gk0i6RNJ1^S[d=>@R=2
@@ -88,11 +88,11 @@ w1653657533
 8C:/repos/verilog_1/test_tb.sv
 FC:/repos/verilog_1/test_tb.sv
 L0 6
-R5
+R6
 r1
 31
-R6
 R7
+R8
 n@d@e@m@o_@t@b
 !s100 H<DjcePd[gcWf08lg5GkV1
 !s85 0
@@ -105,11 +105,11 @@ w1653661749
 8C:/repos/verilog_1/DEMO_FAS.v
 FC:/repos/verilog_1/DEMO_FAS.v
 L0 7
-R5
+R6
 r1
 31
-R6
-R9
+R7
+R10
 n@d@e@m@o_@t@b_@f@a@s
 !s100 3GfKRUJSG8C9>I2;:YiO]3
 !s85 0
@@ -122,11 +122,11 @@ w1653660542
 8C:/repos/verilog_1/DEMO_RIP.v
 FC:/repos/verilog_1/DEMO_RIP.v
 L0 6
-R5
+R6
 r1
 31
-R6
-R9
+R7
+R10
 n@d@e@m@o_@t@b_@r@i@p
 !s100 3W2JVe;YILH^93jDGCPBY3
 !s85 0
@@ -135,15 +135,15 @@ vfas
 IWijl?ecWcHYGSlA<5XaT^0
 VMkOd7[OkSNEbRlWdJ@ZYG0
 R2
-Z10 w1653404770
-Z11 8C:/repos/verilog_1/fas.v
-Z12 FC:/repos/verilog_1/fas.v
+Z11 w1653404770
+Z12 8C:/repos/verilog_1/fas.v
+Z13 FC:/repos/verilog_1/fas.v
 L0 1
-R5
+R6
 r1
 31
-R6
-R9
+R7
+R10
 !s100 ?5@T4:2_c4g@GzkL`]_5<3
 !s85 0
 !s101 -O0
@@ -151,15 +151,15 @@ vfasrip
 IX[fOm5Hh_=mAaThTc3>BA3
 VaoUF11:9aFCQKHm3NM?CB3
 R2
-R10
 R11
 R12
+R13
 L0 14
-R5
+R6
 r1
 31
-R6
-R9
+R7
+R10
 !s100 UiS__4_nDJo@IMHd;T2972
 !s85 0
 !s101 -O0
@@ -171,11 +171,11 @@ w1653134438
 8C:/repos/task1_verilog/mux2on1.v
 FC:/repos/task1_verilog/mux2on1.v
 L0 1
-R5
+R6
 r1
 31
-R6
-R9
+R7
+R10
 !s100 :h_YRf1nXlSknZUCm6f721
 !s85 0
 !s101 -O0
@@ -187,16 +187,16 @@ w1653143866
 8C:/repos/verilog_1/test.v
 FC:/repos/verilog_1/test.v
 L0 1
-R5
+R6
 r1
 31
-R6
-R9
+R7
+R10
 !s100 ]dJaoU4@9@AX7A@K>G1=b3
 !s85 0
 !s101 -O0
 vMUX4_TB
-R8
+R9
 R1
 IQT`lJc`<?ca@izll2KoSP3
 VQdWQWiDdjEPM_8la=z7V>2
@@ -206,11 +206,11 @@ w1653661660
 8C:/repos/verilog_1/mux4_tb.sv
 FC:/repos/verilog_1/mux4_tb.sv
 L0 6
-R5
+R6
 r1
 31
-R6
 R7
+R8
 n@m@u@x4_@t@b
 !s100 5zPJ;QbmEi@lgoLfgQ=eO3
 !s85 0
@@ -223,49 +223,49 @@ w1653136024
 8C:/repos/verilog_1/mux4on1.v
 FC:/repos/verilog_1/mux4on1.v
 L0 1
-R5
+R6
 r1
 31
-R6
-R9
+R7
+R10
 !s100 ]b1iUGY:gKQlK<_XRLg;D2
 !s85 0
 !s101 -O0
 vmux_2bit
-R8
+R9
 R1
 IH1Weo79:eQ<?Od:H9d<Un2
 V1kj0]P0HX=76I5o;g9Afg1
 S1
 R2
-Z13 w1653657972
-Z14 8C:/repos/verilog_1/mux.sv
-Z15 FC:/repos/verilog_1/mux.sv
+Z14 w1653657972
+Z15 8C:/repos/verilog_1/mux.sv
+Z16 FC:/repos/verilog_1/mux.sv
 L0 1
-R5
+R6
 r1
 31
-R6
 R7
+R8
 !s100 Q4WiTendh9EQ:a0_U8fWm1
 !s85 0
 !s101 -O0
 vmux_4bit
-R8
+R9
 R1
 ICReMQY_a:0Djmij4iEU_P0
 V3n1CGPc`cW=bRE77;@WnG0
 S1
 R2
-R13
 R14
 R15
+R16
 L0 13
-R5
+R6
 r1
 31
-R6
 R7
+R8
 !s100 CI]S0AlL19iAGjD1;KRDN0
 !s85 0
 !s101 -O0
@@ -277,11 +277,11 @@ w1653135146
 8C:/repos/task1_verilog/nor2_1bit.v
 FC:/repos/task1_verilog/nor2_1bit.v
 L0 1
-R5
+R6
 r1
 31
-R6
-R9
+R7
+R10
 !s100 X`K<CSGifOfm4C`<g`B8Z3
 !s85 0
 !s101 -O0
@@ -293,11 +293,11 @@ w1653135137
 8C:/repos/task1_verilog/xor2_1bit.v
 FC:/repos/task1_verilog/xor2_1bit.v
 L0 1
-R5
+R6
 r1
 31
-R6
-R9
+R7
+R10
 !s100 V75m5[0Yl<E@HV>knLRB_2
 !s85 0
 !s101 -O0

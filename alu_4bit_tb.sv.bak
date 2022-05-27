@@ -9,12 +9,15 @@ module ALU_4BIT_TB();
 // ===================
 
 // Gate output wires
-wire z;
+wire [3:0] z;
+wire cout;
 
 // Gate inputs - declared as registers, since we need them to 'remember'
 // values
-reg cout, a, b, cin;
+reg [3:0] a; 
+reg [3:0] b;
 reg [1:0] s_op;
+reg cin;
 
 // The test bench: try 2 different input combinations at 2 different points
 // of time - change values : 00 to 11 to 00 after 10 time units.
@@ -26,9 +29,9 @@ begin
     
     s_op[0] = 1'b0;
     s_op[1] = 1'b1;
-    a = 1'b1;
-    b = 1'b1;
-    cin = 1'b1;
+    a = 4'b0100;
+    b = 4'b0001;
+    cin = 1'b0;
     
 end
 
@@ -36,7 +39,7 @@ end
 // ===================
 
 // For this gate we use the default delays with: Tpdlh=1 and Tpdhl=1
-alu_1bit  alu4_de(.z(z), .cout(cout), .a(a), .b(b), .cin(cin), .s_op(s_op));
+alu_4bit  alu4_de(.z(z), .cout(cout), .a(a), .b(b), .cin(cin), .s_op(s_op));
 
 // Print out the output values on every change
 // ===========================================
