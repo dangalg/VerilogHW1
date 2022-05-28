@@ -9,7 +9,7 @@ module ALU_4BIT_TB();
 // ===================
 
 // Gate output wires
-wire [3:0] z;
+wire z;
 wire cout;
 
 // Gate inputs - declared as registers, since we need them to 'remember'
