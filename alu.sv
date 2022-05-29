@@ -2,13 +2,14 @@ module alu_1bit(z, cout, a, b, cin, s_op);
   input a, b, cin;
   input [1:0]s_op;
   output cout, z;
-  wire ab, nandop, norop, fasout;
+  wire ab, nandop, norop, FAs, FAcout;
  parameter Tpd = 1;
     and2_1bit and1(.a(a),.b(b),.c(ab));
-    nor2_1bit nor1(.a(nandop),.b(ab),.c(ab));
+    nor2_1bit nor1(.a(ab),.b(ab),.c(nandop));
     nor2_1bit nor2(.a(a),.b(b),.c(norop));
-    fas fas1(.s(fasout), .cout(cout), .a(a), .b(b), .cin(cin), .s_op(s_op[0]));
-    mux_4bit mux1(.z(z),.s0(s_op[0]),.s1(s_op[1]),.d0(nandop),.d1(norop),.d2(fasout),.d3(fasout));
+    fas fas1(.s(FAs), .cout(FAcout), .a(a), .b(b), .cin(cin), .s_op(s_op[0]));
+    mux_4bit mux1(.z(z),.s0(s_op[0]),.s1(s_op[1]),.d0(nandop),.d1(norop),.d2(FAs),.d3(FAs));
+    and2_1bit and2 (.a(s_op[1]), .b(FAcout), .c(cout) );
 endmodule
 
 module alu_4bit(z, cout, a, b, cin, s_op);

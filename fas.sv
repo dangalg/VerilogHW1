@@ -1,4 +1,4 @@
-module fas1bit(s, cout, a, b, cin, s_op);//a=1,b=1,cin=0,s_op=1
+module fas(s, cout, a, b, cin, s_op);//a=1,b=1,cin=0,s_op=1
   input a, b, cin, s_op;
   wire bxs_op, axbxs_op, cinaxbxs_op, abxs_op, coutnor;
   output cout, s;

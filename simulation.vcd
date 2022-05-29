@@ -1,5 +1,5 @@
 $date
-	Sun May 29 21:01:39 2022
+	Sun May 29 22:18:21 2022
 $end
 $version
 	ModelSim Version 6.5b
@@ -7,35 +7,23 @@ $end
 $timescale
 	1ns
 $end
-$scope module DEMO_TB_RIP $end
-$var wire 1 ! cout $end
-$var wire 1 " s [3] $end
-$var wire 1 # s [2] $end
-$var wire 1 $ s [1] $end
-$var wire 1 % s [0] $end
-$var reg 4 & a [3:0] $end
-$var reg 4 ' b [3:0] $end
-$var reg 1 ( cin $end
-$var reg 1 ) s_op $end
+$scope module ALU_4BIT_TB $end
+$var wire 1 ! z $end
+$var wire 1 " cout $end
+$var reg 4 # a [3:0] $end
+$var reg 4 $ b [3:0] $end
+$var reg 2 % s_op [1:0] $end
+$var reg 1 & cin $end
 $upscope $end
 $enddefinitions $end
 #0
 $dumpvars
-b1 &
-b1 '
-0(
-0)
+b10 #
+b10 $
+b11 %
+1&
 x!
-x%
-x$
-x#
 x"
 $end
-#15
-0%
-#24
+#43
 0!
-1$
-#29
-0#
-0"
