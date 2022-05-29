@@ -13,27 +13,12 @@ Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
 Top level modules:
 	fasrip
 
-} {} {}} C:/repos/verilog_1/rip_fas_tb.sv {1 {vlog -work work -sv -nocovercells C:/repos/verilog_1/rip_fas_tb.sv
-Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
--- Compiling module RIP_FAS_TB
-
-Top level modules:
-	RIP_FAS_TB
-
-} {} {}} C:/repos/task1_verilog/xor2_1bit.v {1 {vlog -work work -nocovercells C:/repos/task1_verilog/xor2_1bit.v
-Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
--- Compiling module xor2_1bit
-
-Top level modules:
-	xor2_1bit
-
 } {} {}} C:/repos/verilog_1/mux.sv {1 {vlog -work work -sv -nocovercells C:/repos/verilog_1/mux.sv
 Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
 -- Compiling module mux_2bit
 -- Compiling module mux_4bit
 
 Top level modules:
-	mux_2bit
 	mux_4bit
 
 } {} {}} C:/repos/verilog_1/alu.sv {1 {vlog -work work -sv -nocovercells C:/repos/verilog_1/alu.sv
@@ -43,6 +28,13 @@ Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
 
 Top level modules:
 	alu_4bit
+
+} {} {}} C:/repos/task1_verilog/xor2_1bit.v {1 {vlog -work work -nocovercells C:/repos/task1_verilog/xor2_1bit.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module xor2_1bit
+
+Top level modules:
+	xor2_1bit
 
 } {} {}} C:/repos/verilog_1/mux4_tb.sv {1 {vlog -work work -sv -nocovercells C:/repos/verilog_1/mux4_tb.sv
 Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009

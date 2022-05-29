@@ -26,10 +26,15 @@ begin
   	$dumpfile("simulation.vcd");
     $dumpvars(1);
     
-    a = 4'b0001;
+    a = 4'b0011;
     b = 4'b0001;
     cin = 1'b0;
     s_op = 1'b0;
+    #10
+    a = 4'b0011;
+    b = 4'b0001;
+    cin = 1'b0;
+    s_op = 1'b1;
   
 end
 

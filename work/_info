@@ -10,7 +10,7 @@ I?E>GelikKPUNS3egGB3]T2
 VjidClIKEi=4hQG]VDkGC^0
 S1
 Z2 dC:\repos\verilog_1
-Z3 w1653718499
+Z3 w1653846330
 Z4 8C:/repos/verilog_1/alu.sv
 Z5 FC:/repos/verilog_1/alu.sv
 L0 1
@@ -25,11 +25,11 @@ Z8 o-work work -sv -nocovercells -O0
 vALU_1BIT_TB
 Z9 Mx1 6 sv_std 3 std
 R1
-I@K3j`AFz[nK4Y2HKaV_g=0
+I_1:oCUKido<?5?kIVZ4cP1
 VBGN0lbU:TJ0GW51Y=5`>?2
 S1
 R2
-w1653718423
+w1653846910
 8C:/repos/verilog_1/alu_1bit_tb.sv
 FC:/repos/verilog_1/alu_1bit_tb.sv
 L0 6
@@ -39,14 +39,14 @@ r1
 R7
 R8
 n@a@l@u_1@b@i@t_@t@b
-!s100 BS0gGiKXLOH[oVNXdo?Um2
+!s100 YUGF33Q@__D2>RXzld`3:3
 !s85 0
 !s101 -O0
 valu_4bit
 R9
 R1
-I@<[PUn2bgXVi_>JAbh8oT2
-VVlGYXc@dOL`ZLjQ5SdbEH3
+IF[mgGaR@_h]ea@O_[64??3
+VI<1MH<372[VzX9CfjD^2I2
 S1
 R2
 R3
@@ -58,17 +58,17 @@ r1
 31
 R7
 R8
-!s100 lJam;XeIZSkn4[zcB=U7g3
+!s100 MkbBEWVQ34AlN3zPlPC`h3
 !s85 0
 !s101 -O0
 vALU_4BIT_TB
 R9
 R1
-Ie_@ma1YgL?AgNF7cD4Lof0
+IRi]m^8[]RheU0cjHzFoeO2
 VWo30CUNGc7kd_0k2YflnX1
 S1
 R2
-w1653718346
+w1653846944
 8C:/repos/verilog_1/alu_4bit_tb.sv
 FC:/repos/verilog_1/alu_4bit_tb.sv
 L0 6
@@ -78,7 +78,7 @@ r1
 R7
 R8
 n@a@l@u_4@b@i@t_@t@b
-!s100 kUN;Go6a6n[Sd`U_`NgkL3
+!s100 Nc3XoG5D[?dd1Ef1iajlO0
 !s85 0
 !s101 -O0
 vand2_1bit
@@ -155,10 +155,10 @@ n@d@e@m@o_@t@b_@r@i@p
 !s85 0
 !s101 -O0
 vfas
-IWijl?ecWcHYGSlA<5XaT^0
+IeU1XAe:jl9VjkUCeK^3oB3
 VMkOd7[OkSNEbRlWdJ@ZYG0
 R2
-Z13 w1653404770
+Z13 w1653845095
 Z14 8C:/repos/verilog_1/fas.v
 Z15 FC:/repos/verilog_1/fas.v
 L0 1
@@ -167,23 +167,61 @@ r1
 31
 R7
 R10
-!s100 ?5@T4:2_c4g@GzkL`]_5<3
+!s100 [Z;7SzSK@l<M3o_Zm<;A11
+!s85 0
+!s101 -O0
+vfas1bit
+R9
+R1
+Ia9_JFXW9fK6J412W?keXa0
+VC3T`k2onDM2EF8J@bZ1EM0
+S1
+R2
+Z16 w1623250886
+Z17 8C:/Users/danga/OneDrive/Ruppin/Year_1/Semester_2/Maarachot_Sifratiot/Anto_Soffair_verilog1/Anto_Soffair_verilog1/fas.sv
+Z18 FC:/Users/danga/OneDrive/Ruppin/Year_1/Semester_2/Maarachot_Sifratiot/Anto_Soffair_verilog1/Anto_Soffair_verilog1/fas.sv
+L0 1
+R6
+r1
+31
+R7
+R8
+!s100 kCMI`XgRB;@JGQPZh[c8Q1
+!s85 0
+!s101 -O0
+vfas4bit
+R9
+R1
+IZb_IWN[leE>^koa4i?O1c1
+V:YVQ:;MY@?A?HzQ6Nkd4;1
+S1
+R2
+R16
+R17
+R18
+L0 17
+R6
+r1
+31
+R7
+R8
+!s100 U^<8Yd?c]<fjTZW=HP^mJ3
 !s85 0
 !s101 -O0
 vfasrip
-IX[fOm5Hh_=mAaThTc3>BA3
+IGFG^A5`?ccbMi_`@_8dXd1
 VaoUF11:9aFCQKHm3NM?CB3
 R2
 R13
 R14
 R15
-L0 14
+L0 15
 R6
 r1
 31
 R7
 R10
-!s100 UiS__4_nDJo@IMHd;T2972
+!s100 nYUeYQGaio>MmCf2WER>o1
 !s85 0
 !s101 -O0
 vmux2on1
@@ -221,11 +259,11 @@ R10
 vMUX4_TB
 R9
 R1
-IeCWHIX8ZmL^h7lXbPETfl2
+IlL7=H;bcB;nF007^J1aib2
 VQdWQWiDdjEPM_8la=z7V>2
 S1
 R2
-w1653718724
+w1653818974
 8C:/repos/verilog_1/mux4_tb.sv
 FC:/repos/verilog_1/mux4_tb.sv
 L0 6
@@ -235,7 +273,7 @@ r1
 R7
 R8
 n@m@u@x4_@t@b
-!s100 G@fS`D=Md^n7Q@fM307cV2
+!s100 OAM9[j1KnS=HP94hEJ?in1
 !s85 0
 !s101 -O0
 vmux4on1
@@ -261,9 +299,9 @@ IH1Weo79:eQ<?Od:H9d<Un2
 V1kj0]P0HX=76I5o;g9Afg1
 S1
 R2
-Z16 w1653657972
-Z17 8C:/repos/verilog_1/mux.sv
-Z18 FC:/repos/verilog_1/mux.sv
+Z19 w1653846662
+Z20 8C:/repos/verilog_1/mux.sv
+Z21 FC:/repos/verilog_1/mux.sv
 L0 1
 R6
 r1
@@ -276,20 +314,20 @@ R8
 vmux_4bit
 R9
 R1
-ICReMQY_a:0Djmij4iEU_P0
+I_1?U_;S3:l3?z:^?NlCjY2
 V3n1CGPc`cW=bRE77;@WnG0
 S1
 R2
-R16
-R17
-R18
+R19
+R20
+R21
 L0 13
 R6
 r1
 31
 R7
 R8
-!s100 CI]S0AlL19iAGjD1;KRDN0
+!s100 hM<A[ifSo?d_LNe=<QXkC2
 !s85 0
 !s101 -O0
 vnor2_1bit
@@ -311,12 +349,12 @@ R10
 vRIP_FAS_TB
 R9
 R1
-!s100 nKBeW3c[XAQj<3bQa9?9K0
-Ijbe]VQ_[Hg`kA3b[c<3U20
+!s100 5_6Q4H^^bMRkNBMVXXd4M2
+IFXjBiSRL<<lEDKIXSlM3P1
 VTdO6BOCE2MGaFle;<N1^Z1
 S1
 R2
-w1653718881
+w1653847272
 R11
 R12
 L0 6

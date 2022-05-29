@@ -16,12 +16,12 @@ module alu_4bit(z, cout, a, b, cin, s_op);
   input [3:0] b; 
   input [1:0] s_op; 
   input cin;
-  wire [2:0] co;
+  wire cout0, cout1, cout2;
   output cout; 
-  output z;
+  output [3:0] z;
   parameter Tpd = 1;
-    alu_1bit alu1(.z(z), .cout(co[0]), .a(a[0]), .b(b[0]), .cin(cin), .s_op(s_op));
-    //alu_1bit alu2(.z(z[1]), .cout(co[1]), .a(a[1]), .b(b[1]), .cin(co[0]), .s_op(s_op));
-    //alu_1bit alu3(.z(z[2]), .cout(co[2]), .a(a[2]), .b(b[2]), .cin(co[1]), .s_op(s_op));
-    //alu_1bit alu4(.z(z[3]), .cout(cout), .a(a[3]), .b(b[3]), .cin(co[2]), .s_op(s_op));
+    alu_1bit alu1(.z(z[0]), .cout(cout0), .a(a[0]), .b(b[0]), .cin(cin), .s_op(s_op));
+    alu_1bit alu2(.z(z[1]), .cout(cout1), .a(a[1]), .b(b[1]), .cin(cout0), .s_op(s_op));
+    alu_1bit alu3(.z(z[2]), .cout(cout2), .a(a[2]), .b(b[2]), .cin(cout1), .s_op(s_op));
+    alu_1bit alu4(.z(z[3]), .cout(cout), .a(a[3]), .b(b[3]), .cin(cout2), .s_op(s_op));
 endmodule
