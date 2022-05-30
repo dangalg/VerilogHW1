@@ -5,12 +5,43 @@ Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
 Top level modules:
 	ALU_1BIT_TB
 
-} {} {}} C:/repos/task1_verilog/xor2_1bit.v {1 {vlog -work work -nocovercells C:/repos/task1_verilog/xor2_1bit.v
+} {} {}} C:/repos/verilog_1/nor.sv {1 {vlog -work work -sv -nocovercells C:/repos/verilog_1/nor.sv
 Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
--- Compiling module xor2_1bit
+-- Compiling module nor2_1bit
 
 Top level modules:
-	xor2_1bit
+	nor2_1bit
+
+} {} {}} C:/repos/verilog_1/rip_fas_tb.sv {1 {vlog -work work -sv -nocovercells C:/repos/verilog_1/rip_fas_tb.sv
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module RIP_FAS_TB
+
+Top level modules:
+	RIP_FAS_TB
+
+} {} {}} C:/repos/verilog_1/design.sv {1 {vlog -work work -sv -nocovercells C:/repos/verilog_1/design.sv
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module and2_1bit
+-- Compiling module nor2_1bit
+-- Compiling module xor2_1bit
+-- Compiling module mux_2bit
+-- Compiling module mux_4bit
+-- Compiling module fas
+-- Compiling module fasrip
+-- Compiling module alu_1bit
+-- Compiling module alu_4bit
+
+Top level modules:
+	fasrip
+	alu_4bit
+
+} {} {}} C:/repos/verilog_1/fas.sv {1 {vlog -work work -sv -nocovercells C:/repos/verilog_1/fas.sv
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module fas
+-- Compiling module fasrip
+
+Top level modules:
+	fasrip
 
 } {} {}} C:/repos/verilog_1/mux.sv {1 {vlog -work work -sv -nocovercells C:/repos/verilog_1/mux.sv
 Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
@@ -28,13 +59,6 @@ Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
 Top level modules:
 	alu_4bit
 
-} {} {}} C:/repos/verilog_1/DEMO_FAS.v {1 {vlog -work work -nocovercells C:/repos/verilog_1/DEMO_FAS.v
-Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
--- Compiling module DEMO_TB_FAS
-
-Top level modules:
-	DEMO_TB_FAS
-
 } {} {}} C:/repos/verilog_1/mux4_tb.sv {1 {vlog -work work -sv -nocovercells C:/repos/verilog_1/mux4_tb.sv
 Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
 -- Compiling module MUX4_TB
@@ -42,19 +66,23 @@ Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
 Top level modules:
 	MUX4_TB
 
-} {} {}} C:/repos/task1_verilog/nor2_1bit.v {1 {vlog -work work -nocovercells C:/repos/task1_verilog/nor2_1bit.v
+} {} {}} C:/repos/verilog_1/testbench.sv {1 {vlog -work work -sv -nocovercells C:/repos/verilog_1/testbench.sv
 Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
--- Compiling module nor2_1bit
+-- Compiling module MUX4_TB
+-- Compiling module RIP_FAS_TB
+-- Compiling module ALU_4BIT_TB
 
 Top level modules:
-	nor2_1bit
+	MUX4_TB
+	RIP_FAS_TB
+	ALU_4BIT_TB
 
-} {} {}} C:/repos/task1_verilog/and2_1bit.v {1 {vlog -work work -nocovercells C:/repos/task1_verilog/and2_1bit.v
+} {} {}} C:/repos/verilog_1/xor.sv {1 {vlog -work work -sv -nocovercells C:/repos/verilog_1/xor.sv
 Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
--- Compiling module and2_1bit
+-- Compiling module xor2_1bit
 
 Top level modules:
-	and2_1bit
+	xor2_1bit
 
 } {} {}} C:/repos/verilog_1/alu_4bit_tb.sv {1 {vlog -work work -sv -nocovercells C:/repos/verilog_1/alu_4bit_tb.sv
 Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
@@ -63,11 +91,18 @@ Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
 Top level modules:
 	ALU_4BIT_TB
 
-} {} {}} C:/repos/verilog_1/rip_fas_tb.sv {1 {vlog -work work -sv -nocovercells C:/repos/verilog_1/rip_fas_tb.sv
+} {} {}} C:/repos/verilog_1/and.sv {1 {vlog -work work -sv -nocovercells C:/repos/verilog_1/and.sv
 Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
--- Compiling module RIP_FAS_TB
+-- Compiling module and2_1bit
 
 Top level modules:
-	RIP_FAS_TB
+	and2_1bit
+
+} {} {}} C:/repos/verilog_1/DEMO_FAS.v {1 {vlog -work work -nocovercells C:/repos/verilog_1/DEMO_FAS.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module DEMO_TB_FAS
+
+Top level modules:
+	DEMO_TB_FAS
 
 } {} {}}

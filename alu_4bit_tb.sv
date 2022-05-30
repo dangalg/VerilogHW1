@@ -27,10 +27,28 @@ begin
   	$dumpfile("simulation.vcd");
     $dumpvars(1);
     
+    s_op[0] = 1'b0;
+    s_op[1] = 1'b0;
+    a = 4'b0010;
+    b = 4'b0010;
+    cin = 1'b0;
+    #10
     s_op[0] = 1'b1;
+    s_op[1] = 1'b0;
+    a = 4'b0010;
+    b = 4'b0011;
+    cin = 1'b1;
+    #10
+    s_op[0] = 1'b0;
     s_op[1] = 1'b1;
     a = 4'b0010;
     b = 4'b0010;
+    cin = 1'b1;
+    #10
+    s_op[0] = 1'b1;
+    s_op[1] = 1'b1;
+    a = 4'b0010;
+    b = 4'b0110;
     cin = 1'b1;
     
 end

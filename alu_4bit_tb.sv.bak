@@ -31,7 +31,7 @@ begin
     s_op[1] = 1'b1;
     a = 4'b0010;
     b = 4'b0010;
-    cin = 1'b0;
+    cin = 1'b1;
     
 end
 
